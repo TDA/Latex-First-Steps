@@ -4,11 +4,21 @@
 \makeindex
 \pagestyle{plain}
 \begin{document}
-	\begin{tabular}[t]{|l|r|} % left aligned 2 columns, top aligned text
+	\begin{tabular}[t]{|p{36pt}|r|} % justified first column, right aligned 2 column, top aligned text
 		\hline
 		this is a table & second column \\
 		\hline
 		with 2 columns & and rows \\
+		\hline
+	\end{tabular}
+	
+	\begin{tabular}[t]{r r @{.} l} 
+		\hline
+		desc & \multicolumn{2}{c}{Decimal}\\ % colspan
+		\hline
+		this is a table & 36&3 \\
+		\hline
+		with 2 columns & 48&9545 \\
 		\hline
 	\end{tabular}
 \end{document}
