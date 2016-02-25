@@ -1,0 +1,25 @@
+\documentclass[a4paper,12pt,titlepage]{article} % seems like it takes only 10, 11 and 12 :D
+\author{Sai Prashanth Chandramouli}
+\title{First Steps}
+\makeindex
+\pagestyle{plain}
+
+\begin{document}
+	\listoffigures
+	\pagebreak
+	Figure \ref{white} is a work of art % gets the number of the figure
+	\begin{figure}[!htbp] % try hard to place here, top, bottom, separate page
+		\makebox[\textwidth]{\framebox[5cm]{\rule{0pt}{5cm}}}
+		\caption[Short square]{"Five by five square" \label{white}}
+		
+	\end{figure}
+	
+	\paragraph{title}
+	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere	More text herere
+	\pagebreak
+	\begin{figure}[!htbp] % try hard to place here, top, bottom, separate page
+		\makebox[\textwidth]{\framebox[3cm]{\rule{0pt}{3cm}}}
+		\caption[3 square]{"3 by 3 square" \label{black}}
+		
+	\end{figure}
+\end{document}
