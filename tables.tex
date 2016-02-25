@@ -12,9 +12,12 @@
 		\hline
 	\end{tabular}
 	
-	\begin{tabular}[t]{r r @{.} l} 
+	\renewcommand{\arraystretch}{2} % vertical spacing
+	\renewcommand{\tabcolsep}{0.4cm} % horizontal spacing
+	
+	\begin{tabular}[c]{|r | r @{.} l |} 
 		\hline
-		desc & \multicolumn{2}{c}{Decimal}\\ % colspan
+		desc & \multicolumn{2}{|c|}{Decimal} \\ % colspan, needs a | here as well
 		\hline
 		this is a table & 36&3 \\
 		\hline
